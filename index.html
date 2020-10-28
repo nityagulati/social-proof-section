@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"/>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Social proof section</title>
+    <!-- Import Vue.js -->
+    <script src="https://unpkg.com/vue@next"></script>
+  </head>
+
+  <body id="app">
+    <h2 class="headline">{{ headline }}</h2> 
+    <p class="introduction">{{ introduction }}</p>   
+    <ratings></ratings>
+    <reviews></reviews>
+    <footer-attribution></footer-attribution>
+
+    <!-- import app -->
+    <script src="/main.js"></script>
+    <!-- import components -->
+    <script src="./components/Ratings.js"></script>
+    <script src="./components/Reviews.js"></script>
+    <script src="./components/Footer.js"></script>
+
+    <!-- mount app -->
+    <script>
+      const mountApp = app.mount('#app')
+    </script>
+  </body>
+</html>
