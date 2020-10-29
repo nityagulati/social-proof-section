@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 10%;
+  text-align: center;
+  background-color: #ffffff;
+  color: #937b92;
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background-image: url(/assets/images/bg-pattern-top-mobile.svg), url(/assets/images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+}
+
+.headline {
+  color: #512051;
+  font-size: 2em;
+}
+
+.introduction {
+  color: #937b92;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.ratings-container {
+  margin: 20% 0 20% 0;
+}
+
+.ratings-container .rating-display {
+  background-color: #F7F2F7;
+  padding: 5% 0 1% 0;
+  margin-bottom: 10%;
+  border-radius: 8px;
+}
+
+.ratings-container .rating-display .rating-desc {
+  font-weight: 700;
+  font-size: 0.87em;
+  color: #512051;
+}
+
+.reviews-container {
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 20%;
+}
+
+.reviews-container .review-display {
+  background-color: #512051;
+  font-size: 0.87em;
+  padding: 10%;
+  margin: 10% 0;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.reviews-container .review-display .review-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10%;
+}
+
+.reviews-container .review-display .review-name {
+  font-weight: 700;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: 20px;
+}
+
+.reviews-container .review-display .review-name .review-verified-buyer {
+  color: #ee68a4;
+  font-weight: 400;
+}
+
+.reviews-container .review-display .review-comment {
+  line-height: 22px;
+}
+
+.attribution {
+  font-size: 0.73em;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=styles.css.map */
