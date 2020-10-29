@@ -4,8 +4,11 @@ app.component('reviews', {
     `<div class="reviews-container">
         <div v-for="review in reviews" class="review-display" :key="review.id">
             <img :src="getImgUrl(review.name)" class="review-image" alt="profile pic">
-            <h3 class="review-name">{{ review.name }}</h3>
-            <p v-if="review.verifiedBuyer" class="review-verified-buyer">Verified Buyer</p>
+            <p class="review-name">{{ review.name }}
+                <span v-if="review.verifiedBuyer" 
+                      class="review-verified-buyer">Verified Buyer
+                </span>
+            </p>
             <p class="review-comment">{{ review.comment }}</p>
         </div>
     </div>`,
