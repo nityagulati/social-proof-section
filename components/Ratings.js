@@ -4,9 +4,9 @@ app.component('ratings', {
     `<div class = "ratings-container">
         <div v-for="rating in ratings"
              :key="rating.id"
-             class="ratings-display">
+             class="rating-display">
             <img v-for="index in rating.stars" :key="index" :src="starImage">
-            <p class="ratings-desc">Rated {{ rating.stars }} Stars in {{ rating.rater }}</p>
+            <p class="rating-desc">Rated {{ rating.stars }} Stars in {{ rating.rater }}</p>
         </div>
     </div>`,
 
