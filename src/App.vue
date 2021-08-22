@@ -29,6 +29,55 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+.container {
+  margin: 5em 1.5em;
 
+  .title {
+    color: $color--primary;
+    font-size: $font-size--large;
+    margin-bottom: 1.2em;
+  }
+
+  .message {
+    color: $color--text;
+    font-weight: $font-weight--medium;
+    line-height: 25px;
+  }
+}
+
+// responsive styles
+@include mq($width-duo) {
+  .container {
+    margin: 5em;
+  }
+}
+
+@include mq($width-sm) {
+  .container {
+    margin: 5em 10em;
+  }
+}
+
+@include mq($width-md) {
+  .container {
+    @include flex;
+    margin: 5em;
+
+    .intro {
+      flex: 1;
+      padding-right: 3em;
+      text-align: left;
+    }
+  }
+}
+
+@include mq($width-lg) {
+  .container {
+    .title {
+      font-size: $font-size--xlarge;
+      margin-bottom: 0.5em;
+    }
+  }
+}
 </style>
