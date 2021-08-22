@@ -13,7 +13,6 @@ This is a solution to the [Social Proof Section challenge on Frontend Mentor](ht
 - [Author](#author)
 - [Project Setup](#project-setup)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -27,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/screenshot.jpg)
+![](@/assets/screenshot.jpg)
 
 ### Links
 
