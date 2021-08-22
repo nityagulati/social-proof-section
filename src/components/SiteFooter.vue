@@ -19,3 +19,13 @@ export default {
     },
 }
 </script>
+
+<style lang="scss">
+.site-footer {
+  font-size: $font-size--xsmall;
+
+  a {
+    color: $color--link;
+  }
+}
+</style>
