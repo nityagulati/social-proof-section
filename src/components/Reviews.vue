@@ -44,3 +44,79 @@ export default {
     },
 }
 </script>
+
+<style lang="scss">
+.reviews-container {
+    margin-top: 3.2em;
+    color: $color--base;
+    text-align: left;
+
+    .review-display {
+        @include flex;
+        background-color: $color--primary;
+        font-size: $font-size--small;
+        padding: 2.7em 2.2em;
+        margin: 2em 0;
+        border-radius: 8px;
+    }
+
+     .review-image {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      margin-right: 1.6em;
+    }
+
+    .review-name {
+      font-weight: $font-weight--bold;
+      flex: 1;
+      line-height: 20px;
+
+      .review-verified-buyer {
+          display: block;
+          color: $color--accent;
+          font-weight: $font-weight--regular;
+        } 
+    }
+
+    .review-comment {
+      line-height: 22px;
+      margin-top: 1.5em;
+    }
+}
+
+// responsive styles
+@include mq($width-sm) {
+    .reviews-container {
+        margin: 5em 2em;
+    }  
+}
+
+@include mq($width-md) {
+    .reviews-container {
+        @include flex;
+        margin: 3em auto;
+        height: 300px;
+
+        .review-display {
+            flex: 1;
+            margin: 1em;
+            padding: 2em;
+
+            &:first-of-type {
+                align-self: flex-start;
+            }
+
+            &:last-of-type {
+                align-self: flex-end;
+            }
+        }
+    }
+}
+
+@include mq($width-lg) {
+    .reviews-container {
+        height: 266px;
+    } 
+}
+</style>
