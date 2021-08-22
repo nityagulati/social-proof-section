@@ -1,0 +1,23 @@
+//device breakpoints and media query
+$width-sm: 768px;
+$width-md: 1024px;
+$width-lg: 1220px;
+$width-xl: 1440px;
+$width-duo: 540px;
+
+@mixin mq($breakpoint) {
+    @media screen and (min-width:$breakpoint) {
+        @content;  
+    }
+}
+
+// flex settings
+@mixin flex($dir:row, $wrap:wrap, $justify-content:center, $justify-items:initial, $align-content:initial, $align-items:center) {
+    display: flex;
+    flex-direction: $dir;
+    flex-wrap: $wrap;
+    justify-content: $justify-content;
+    justify-items: $justify-items;
+    align-content: $align-content;
+    align-items: $align-items;
+}
