@@ -1,7 +1,9 @@
 <template>
   <div class="container">
-    <h1 class="title">{{ title }}</h1>
-    <p class="message">{{ message }}</p>
+    <div class="intro">
+      <h1 class="title">{{ title }}</h1>
+      <p class="message">{{ message }}</p>
+    </div>
     <Ratings />
     <Reviews />
     <SiteFooter />
