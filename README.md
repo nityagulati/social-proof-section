@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/nityagulati/social-proof-section)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/social-proof-section-vuejs-N1OVhaqCz)
 - Live Site URL: [Social Proof Section](https://nityagulati.github.io/social-proof-section/)
 
 ## My process
