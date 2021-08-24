@@ -4,7 +4,7 @@
              :key="rating.id"
              class="rating-display">
              <div class="rating-stars">
-                <img v-for="index in rating.stars" :key="index" :src="starImage">
+                <img v-for="index in rating.stars" :key="index" :src="starImage" alt="star">
              </div>
             <p class="rating-desc">Rated {{ rating.stars }} Stars in {{ rating.rater }}</p>
         </div>
