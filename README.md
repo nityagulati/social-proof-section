@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/screenshot.jpg)
+![](@/assets/screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](hhttps://github.com/nityagulati/social-proof-section)
+- Live Site URL: [Add live site URL here](https://nityagulati.github.io/social-proof-section/)
 
 ## My process
 
